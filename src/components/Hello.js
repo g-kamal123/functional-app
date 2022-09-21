@@ -4,19 +4,10 @@ import React from 'react'
 
 function Hello(){
   return (
-    <div style={{margin:'50px'}}>Hello World!</div>
+    <div>
+      <h3>using usual function</h3>
+     <h2> Hello World!</h2></div>
   )
 }
-
-
-//using arraow function
-
-// const Hello = ()=>{
-//   return (
-//     <div>Hello World!</div>
-//   )
-    
-// }
-
 export default Hello //export as default
 // export {Hello}    //named export
